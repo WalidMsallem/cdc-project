@@ -1,0 +1,185 @@
+.forums {
+  font-size: 22px;
+}
+
+.forums-intro {
+  margin: 70px auto;
+  text-align: justify;
+  width: 80%;
+}
+
+.forum:nth-child(odd) > :first-child {
+  order: 2;
+  left: auto;
+  right: 100px;
+  top: 50px;
+}
+.forum:nth-child(odd) > :last-child {
+  align-items: flex-start;
+}
+.forum {
+  display: flex;
+  align-items: center;
+  margin: 70px;
+  position: relative;
+}
+.forum-logo {
+  height: 300px;
+  display: flex;
+  width: 415px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid;
+  padding: 30px;
+  box-sizing: content-box;
+}
+.energy .forum-logo {
+  border-color: #fdc400;
+}
+.youth .forum-logo {
+  border-color: #ed6c84;
+}
+.economy .forum-logo {
+  border-color: #5ac1cf;
+}
+.culture .forum-logo {
+  border-color: #c680b5;
+}
+.environment .forum-logo {
+  border-color: #72bc7a;
+}
+.assembly .forum-logo {
+  border-color: #21bbef;
+  height: 148px;
+  width: 500px;
+}
+.assembly .forum-logo img {
+  width: 100%;
+  height: initial;
+}
+.forum-logo img {
+  height: 100%;
+}
+.forum-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.forum-header {
+  position: relative;
+  padding: 30px;
+  min-width: 370px;
+  left: 104px;
+}
+.energy .forum-header {
+  background-color: #fdc400;
+}
+.youth .forum-header {
+  background-color: #ed6c84;
+}
+.economy .forum-header {
+  background-color: #5ac1cf;
+  top: 75px;
+}
+.culture .forum-header {
+  background-color: #c680b5;
+  top: 100px !important;
+}
+.environment .forum-header {
+  background-color: #72bc7a;
+  top: 30px;
+}
+.assembly .forum-header {
+  background-color: #21bbef;
+  top: -70px !important;
+  right: 120px !important
+}
+.energy h2 {
+  border-color: #f39313 !important;
+}
+.youth h2 {
+  border-color: #e83458 !important;
+}
+.economy h2 {
+  border-color: #109fad !important;
+}
+.culture h2 {
+  border-color: #933f90 !important;
+}
+.environment h2 {
+  border-color: #188d66 !important;
+}
+.assembly h2 {
+  border-color: #213869 !important;
+}
+.forum h2 {
+  font-size: 2.3em;
+  line-height: 54px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  color: white !important;
+  border-bottom: 4px solid;
+}
+.forum h3 {
+  font-size: 1.5em;
+  line-height: 1.2;
+  color: white !important;
+}
+.forum p {
+  text-align: justify;
+  width: 70%;
+  margin: 30px 0;
+  line-height: 1.3;
+  font-size: 0.9em;
+}
+
+@media only screen and (max-width: 900px) {
+  .forum {
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+  }
+  .forum * {
+    width: 370px !important;
+    box-sizing: border-box !important;
+    height: 100% !important;
+  }
+  .forum-header {
+    padding: 30px;
+    order: 1 !important;
+    left: 0 !important;
+    right: 0 !important;
+    top: 0 !important;
+    margin: 30px 0 !important
+  }
+  .forum-header * {
+    max-width: 100%;
+  }
+  .assembly .forum-header, .culture .forum-header { 
+    top: 0 !important
+  }
+  .forum-content {
+    order: 2 !important;
+    align-items: center !important;
+  }
+  .forums {
+    font-size: 15px !important;
+  }
+  .forum p {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .forum * {
+    width: 300px !important;
+  }
+  .forums-intro {
+    width: 100%;
+  }
+  .forum-header {
+    min-width: 300px;
+  }
+}

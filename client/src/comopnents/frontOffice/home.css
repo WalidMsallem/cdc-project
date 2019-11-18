@@ -1,0 +1,139 @@
+.home-cover {
+  position: relative;
+  min-height: 315px;
+  padding-bottom: 10%;
+}
+.home-cover img {
+  position: absolute;
+  top: -94px;
+  max-width: 100%;
+  z-index: -100;
+  filter: opacity(70%);
+}
+.home-page h1 {
+  text-align: left;
+  margin-left: 12%;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: white;
+  max-width: fit-content;
+}
+
+.home-page span {
+  background-color: #213869;
+  padding: 5px 12px;
+}
+
+.home-paragraph {
+  color: #5a5a5a;
+  text-align: center;
+  font-size: 15px;
+  line-height: 34px;
+}
+.gutter-box img {
+  max-width: 45%;
+  margin: auto;
+
+  filter: opacity(60%);
+}
+.gutter-box {
+  display: flex;
+  flex-direction: column;
+}
+.gutter-box h3 {
+  color: #48b9e1;
+}
+.gutter-box p {
+  max-width: 95%;
+  text-align: justify;
+}
+.riveEnBref {
+  max-width: 90%;
+  margin: auto;
+}
+.resume {
+  width: 80%;
+  margin: 24px auto;
+}
+.resume h2 {
+  color: #213869;
+  font-weight: bold;
+  font-size: 33px;
+  margin-bottom: 30px;
+  text-align: center;
+  line-height: 45px;
+}
+.body-title {
+  border: 3px solid #48b9e1;
+  padding: 8px 10px;
+  background-color: #48b9e1;
+  color: white;
+  margin-bottom: 0px;
+  font-size: 14px;
+}
+.home-body p {
+  padding: 10px;
+  color: #6b7071;
+  text-align: justify;
+  font-size: 12px;
+}
+
+.home-body {
+  margin: 5% auto;
+  width: 80%;
+}
+.body-box {
+  margin: 15px;
+}
+@media screen and (max-width: 768px) {
+  .home-cover img {
+    min-height: 330px;
+  }
+  .home-page h1 {
+    font-size: 42px;
+  }
+  .home-body {
+    margin-top: 0px;
+  }
+  .home-body .ant-col-lg-10 {
+    margin-right: 0px;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .home-cover {
+    min-height: 15px;
+  }
+  .home-page h1 {
+    font-size: 22px;
+    position: absolute;
+    top: 65px;
+  }
+  .home-body {
+    margin-top: 225px;
+  }
+
+  .riveEnBref .ant-row-flex {
+    flex-direction: column;
+  }
+  .riveEnBref .ant-col-6 {
+    width: 100%;
+  }
+  .home-body .ant-col-lg-10 {
+    margin-right: 0px;
+  }
+}
+@media all and (min-width: 1024px) {
+  .home-cover {
+    padding-top: 10%;
+  }
+  .home-page h1 {
+    font-size: 60px;
+  }
+}
+@media all and (max-width: 1280px) and (min-width: 768px) {
+  .home-cover img {
+    min-height: 400px;
+  }
+}

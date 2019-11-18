@@ -1,0 +1,39 @@
+.nav-bar {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  margin: 0 auto 30px;
+  height: 64px;
+  padding: 5px 12px;
+  background: transparent;
+  z-index: 3;
+}
+.nav-bar ul {
+  border: none;
+  text-align: end;
+  width: 40%;
+}
+.nav-bar li {
+  height: 100%;
+  line-height: 60px;
+}
+.nav-bar li:hover {
+  color: #15bef1;
+  border-bottom: 2px solid #15bef1;
+}
+.nav-logo {
+  display: flex;
+  height: 95%;
+}
+.nav-logo img {
+  height: 100%;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+.nav-bar ul {
+    width: 28%;
+  }
+}

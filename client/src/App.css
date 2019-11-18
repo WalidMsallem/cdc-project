@@ -1,0 +1,179 @@
+@font-face {
+  font-family: "Dincond Cond";
+  src: url("fonts/DINPro-Cond.woff") format("woff"),
+    url("fonts/DINPro-Cond.otf") format("opentype"),
+    url("fonts/DINPro-Cond.woff2") format("woff2");
+}
+
+body {
+  font-family: "Dincond Cond" !important;
+  color: black !important;
+}
+
+/* responsive sider button */
+main {
+  min-height: 80vh;
+  padding-bottom: 25px;
+}
+.ant-layout-sider-zero-width-trigger {
+  z-index: 2;
+  top: 50px;
+  background: #213869;
+}
+@import "~antd/dist/antd.css";
+
+.test {
+  white-space: nowrap;
+  width: 20px !important ;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+table > tbody > tr > td + td + td + td {
+  overflow: hidden;
+  max-width: 250px;
+  min-width: 10%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 37px !important;
+}
+
+.photo {
+  width: 220px;
+}
+#contact-Object {
+  -webkit-font-smoothing: antialiased;
+  font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  font-size: 1.375rem;
+  font-variant-ligatures: no-contextual;
+  color: #202124;
+  font-weight: 400;
+}
+#contact-Name {
+  -webkit-font-smoothing: antialiased;
+  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0.2px;
+  color: #202124;
+  line-height: 20px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+#contact-Email {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  -webkit-font-smoothing: auto;
+  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.3px;
+  color: #5f6368;
+
+  line-height: 20px;
+  max-width: -webkit-calc(100% - 8px);
+  max-width: calc(100% - 8px);
+}
+.login-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login-form {
+  width: 300px;
+}
+.delte-selected-projects {
+  display: flex;
+  flex-direction: column;
+}
+.Log-out:hover {
+  color: red;
+}
+#image-logo-admin {
+  width: 100%;
+}
+#logo-admin {
+  margin: 10px 0 0 0;
+}
+.add-style-menu {
+  margin-top: 15px;
+}
+.custom-file-input {
+  color: transparent;
+  font-weight: 200 !important;
+}
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+  font-weight: 200 !important;
+}
+.custom-file-input::before {
+  content: "Upload";
+  padding: 5px 8px;
+  outline: none;
+  color: #40a9ff;
+  border: 0px none;
+  display: inline-block;
+  font-family: "Segoe UI", sans-serif;
+
+  margin-top: 15px;
+  margin-bottom: 12px;
+  height: 45px;
+  background: -webkit-linear-gradient(top, white, white);
+
+  border-radius: 3px;
+
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 9pt;
+  line-height: 35px;
+  background-color: red;
+}
+.custom-file-input::before {
+  font-weight: 400 !important;
+}
+.custom-file-input:hover::before {
+  border-color: black;
+}
+.custom-file-input:active {
+  outline: 0;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+.message-card {
+  margin: 15px 0;
+}
+.widh-textarea {
+  width: 50%;
+}
+.width-10 {
+  width: 10%;
+}
+.sider-link {
+  color: white;
+}
+.ava {
+  width: 90px;
+  height: 90px;
+  margin-right: 10px;
+}
+
+input {
+  min-width: 70px;
+}
+.select-tag {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  height: 45px;
+  min-width: 74px;
+}

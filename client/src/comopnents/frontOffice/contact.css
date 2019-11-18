@@ -1,0 +1,22 @@
+.contact-Container{ display: flex;    max-width: 80%;
+    margin: auto;}
+.contact-Container h1{font-weight: 400;
+font-size: 55px}
+.contact-Container div{flex: 1}
+
+
+
+.contactForm{display: flex;flex-direction: column;flex: 1;        color: #163c6e;}
+.contactForm input{    border: none;
+    border-bottom: #d4d1d1 1px solid;    margin-bottom: 20px;}
+.contactForm input:focus, .contactForm textarea:focus{outline: none;}    
+.contactForm label{    margin-bottom: 15px;    font-size: 16px;color: #163c6e;
+}  
+.contactForm textarea{    border: none;
+    border-bottom: #d4d1d1 1px solid;    margin-bottom: 20px;} 
+.contactForm button{    border: none;
+    background: transparent;
+    color: #163c6e;    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;box-shadow: none}   
+    .contactForm button:hover{  background-color: #15bef1}     

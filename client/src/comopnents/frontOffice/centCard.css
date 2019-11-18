@@ -1,0 +1,98 @@
+@-webkit-keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+.post {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 235px;
+    min-width: fit-content;
+    box-sizing: border-box;
+    padding: 30px;
+    background: #fff;
+    color: #333;
+    border: #d9d9d9 solid 1px;
+    border-radius: 4px;
+}
+
+.post>div:first-child {
+    text-align: center;
+}
+
+.post .post-date {
+    color: #aaa;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-title {
+    margin-right: 5px;
+    border-bottom: 2px solid #48b9e1;
+    font-weight: 600;
+}
+
+.bio {
+    text-align: justify;
+    min-height: 125px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1;
+    color: #89889c;
+    font-size: 17px;
+}
+
+.bio span {
+    width: max-content
+}
+
+.bio-text {
+    font-size: 16px;
+    width: max-content;
+}
+
+.badge-light {
+    border: #ccc solid 1px;
+}
+
+.expand {
+    font-size: 16px;
+    color: #48b9e1;
+    position: relative;
+    top: 2px;
+    left: -5px;
+}
+
+.expand-up {
+    font-size: 16px;
+    color: #48b9e1;
+    position: relative;
+    top: 3px;
+}

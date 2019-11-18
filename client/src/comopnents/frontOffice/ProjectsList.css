@@ -1,0 +1,78 @@
+.ant-list-bordered {
+  min-width: fit-content;
+}
+.projects-list .ant-list-pagination {
+  display: flex;
+  justify-content: center;
+}
+.project-header {
+  text-transform: uppercase;
+  color: #213869;
+  font-size: 22px;
+  line-height: 20px;
+  height: fit-content;
+  align-items: center;
+  margin-bottom: 20px !important;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.project-header h2 {
+  margin-bottom: 0;
+}
+.organization-name {
+  text-transform: capitalize
+}
+.projects-list i {
+  color: rgba(70, 194, 255, 0.82);
+  padding: 0 10px;
+}
+.projects-list span span {
+  color: #89889c;
+  min-width: max-content;
+}
+.ant-layout {
+  background-color: white;
+}
+.thematic {
+  color: #096dd9;
+  text-transform: capitalize;
+  font-size: 18px
+}
+.project-card {
+  padding: 20PX 30PX !important;
+}
+
+.thematique-header {
+  border: 1px solid #e6d8d8;
+  margin-bottom: 0px;
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-size: 17px
+}
+.ant-list-item-meta-title {
+  margin-bottom: 0px !important;
+}
+.description {
+  color: black;
+  text-align: justify;
+  padding-bottom: 20px;
+  font-size: 17px !important;
+}
+.expand {
+  font-size: 16px;
+  color: #48b9e1;
+  position: relative;
+  top: 2px;
+  left: -7px;
+}
+.expand-up {
+  font-size: 16px;
+  color: #48b9e1;
+  position: relative;
+  top: 3px;
+}
+.ant-checkbox-group-item{
+  display: block;
+}
