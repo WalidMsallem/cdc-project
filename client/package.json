@@ -6,7 +6,7 @@
   "dependencies": {
     "@material-ui/core": "^4.0.1",
     "antd": "^3.19.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "flag-icon-css": "^3.3.0",
     "jwt-decode": "^2.2.0",
     "react": "^16.8.6",
